@@ -1,0 +1,20 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpFGrpcClienteCore"
+        xmlns:Cliente="clr-namespace:Shared.Cliente;assembly=Shared"  x:Class="WpFGrpcClienteCore.MainWindow"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+
+    <Grid>
+        <Button Margin="10,10,573,351" Click="Button_Click"/>
+      
+        <ListBox x:Name="listmensagem_sistema" Margin="264,10,10,217" SelectedIndex="-1" />
+
+        <TextBlock x:Name="textobloco" Margin="269,232,38,22" RenderTransformOrigin="0.5,0.5" >
+         
+        </TextBlock>
+    </Grid>
+</Window>
